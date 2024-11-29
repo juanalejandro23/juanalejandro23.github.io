@@ -1,145 +1,131 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buenánimo</title>
-    <link rel="icon" href="png/oso-polar.png" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgba(0, 0, 0, 0.9);
-            color: white;
-            margin: 0 0 0 50px;
-            padding: 0;
-            transition: background-color 0.5s, color 0.5s;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario prueba</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-        h1 {
-            text-align: center;
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-        }
+    .form-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
 
-        footer {
-            text-align: center;
-            font-size: 1em;
-            margin-top: 5px;
-            padding-top: 10px;
-            border-top: 1px solid #ccc;
-        }
+    .form-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
 
-        .conteiner-items {
-            text-align: center;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
+    .form-group {
+      margin-bottom: 20px;
+    }
 
-        .item img {
-            width: 5em;
-            height: 5em;
-            padding: 20px 30px;
-            padding: 20px;
-            background-color: rgba(128, 128, 128, 1);
-            border-radius: 15px;
-        }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #555;
+    }
 
-        /* Estilo del modo oscuro */
-        .dark-mode {
-            background-color: #333;
-            color: #f5f5f5;
-        }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
 
-        .dark-mode footer {
-            border-top-color: #555;
-        }
+    button {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-        /* Estilo del botón de modo oscuro */
-        .dark-mode-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 5px 15px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+    button:hover {
+      background-color: #45a049;
+    }
 
-        .dark-mode .dark-mode-toggle {
-            background-color: #f5f5f5;
-            color: #333;
-        }
-    </style>
+    .error {
+      color: red;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()"></button>
 
-    <div class="container">
-        <h1>MyWorkspace</h1>
+  <div class="form-container">
+    <h2>Formulario de Registro</h2>
+    <form id="registro-form">
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+      </div>
+      <div class="form-group">
+        <label for="posicion">Posición de Campo</label>
+        <select id="posicion" name="posicion" required>
+          <option value="" disabled selected>Selecciona una posición</option>
+          <option value="portero">Portero</option>
+          <option value="defensa">Defensa</option>
+          <option value="medio">Medio</option>
+          <option value="delantero">Delantero</option>
+        </select>
+      </div>
+      <div class="error" id="error-msg"></div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
 
-        <main class="conteiner-items">
-            <div class="item">
-                <a href="https://youtube.com" target="_blank">
-                    <img src="png/social.png" alt="youtube">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://keep.google.com" target="_blank">
-                    <img src="png/nota-adhesiva.png" alt="notas">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://chatgpt.com" target="_blank">
-                    <img src="png/chatgpt.png" alt="chatgpt">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://notion.so" target="_blank">
-                    <img src="png/casa.png" alt="notion">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://calendar.google.com" target="_blank">
-                    <img src="png/calendario.png" alt="calendario">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://mail.google.com" target="_blank">
-                    <img src="png/email.png" alt="gmail">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://gemini.google.com" target="_blank">
-                    <img src="png/aplicacion-de-ia.png" alt="gemini">
-                </a>
-            </div>
-    
-            <div class="item">
-                <a href="https://drive.google.com" target="_blank">
-                    <img src="png/logotipo-de-google-drive.png" alt="drive">
-                </a>
-            </div>
-        </main>
+  <script>
+    const maxPorPosicion = 2;
+    const contadorPosiciones = { portero: 0, defensa: 0, medio: 0, delantero: 0 };
 
-        <footer>
-            &copy; 2024 Juan Alejandro Luna Moreno
-        </footer>
-    </div>
+    document.getElementById('registro-form').addEventListener('submit', function(event) {
+      event.preventDefault();  // Evita el envío predeterminado
 
-    <script>
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
-    </script>
+      const posicionSeleccionada = document.getElementById('posicion').value;
+      const errorMsg = document.getElementById('error-msg');
+
+      // Verificar si la posición tiene espacio disponible
+      if (contadorPosiciones[posicionSeleccionada] >= maxPorPosicion) {
+        errorMsg.textContent = `Solo se permiten ${maxPorPosicion} jugadores en la posición de ${posicionSeleccionada}.`;
+      } else {
+        contadorPosiciones[posicionSeleccionada]++;
+        errorMsg.textContent = '';  // Limpia el mensaje de error
+
+        // Aquí podrías agregar más lógica para enviar datos a un servidor
+        alert('Jugador registrado con éxito en la posición de ' + posicionSeleccionada);
+
+        this.reset();  // Reinicia el formulario
+      }
+    });
+  </script>
+
 </body>
 </html>
