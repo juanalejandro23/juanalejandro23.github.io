@@ -1,0 +1,113 @@
+[
+    {
+      "titulo": "Oscar Maydon",
+      "fecha": "11 de junio",
+      "lugar": "Auditorio Telmex, Guadalajara",
+      "imagen": "media/maydon.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Maydon"
+    },
+  
+    {
+      "titulo": "Quevedo",
+      "fecha": "25 de abril",
+      "lugar": "Auditorio Telmex, Guadalajara",
+      "imagen": "media/quevedo.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Quevedo"
+    },
+  
+    {
+      "titulo": "Cristian Nodal",
+      "fecha": "25 de abril",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/nodal.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Nodal"
+    },
+  
+    {
+      "titulo": "Eden Muñoz",
+      "fecha": "25 de abril",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/edenM.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Eden Muñoz"
+    },
+  
+    {
+      "titulo": "Grupo Firme",
+      "fecha": "9 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/firme.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Grupo Firme"
+    },
+  
+    {
+      "titulo": "Jorge Medina y Josi Cuen",
+      "fecha": "30 de abril",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/jorgeYJosi.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Jorge y Josi"
+    },
+  
+    {
+      "titulo": "Luis R y Netón Vega",
+      "fecha": "27 de abril",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/luisRNeton.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen Luis R y Netón"
+    },
+  
+    {
+      "titulo": "Alfredo Olivas",
+      "fecha": "1 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/alfredito.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Alfredo Olivas"
+    },
+  
+    {
+      "titulo": "Chuy Lizárraga",
+      "fecha": "2 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/chuyL.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Chuy Lizárraga"
+    },
+  
+    {
+      "titulo": "Natalia Jiménez",
+      "fecha": "3 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/nataliaJ.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Natalia Jiménez"
+    },
+  
+    {
+      "titulo": "Julión Álvarez",
+      "fecha": "4 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/julion.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Julión"
+    }
+  
+  ]
+  
