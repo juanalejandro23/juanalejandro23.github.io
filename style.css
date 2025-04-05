@@ -87,4 +87,7 @@ body {
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-
+@media (max-width: 414px) {
+    /* Teléfonos comunes en vertical */
+  }
+  
