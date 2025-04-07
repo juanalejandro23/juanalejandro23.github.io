@@ -1,15 +1,5 @@
 [
     {
-      "titulo": "Oscar Maydon",
-      "fecha": "11 de junio",
-      "lugar": "Auditorio Telmex, Guadalajara",
-      "imagen": "media/maydon.png",
-      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
-      "categoria": "conciertos",
-      "alt": "Imagen de Maydon"
-    },
-  
-    {
       "titulo": "Quevedo",
       "fecha": "25 de abril",
       "lugar": "Auditorio Telmex, Guadalajara",
@@ -37,16 +27,6 @@
       "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
       "categoria": "conciertos",
       "alt": "Imagen de Eden Muñoz"
-    },
-  
-    {
-      "titulo": "Grupo Firme",
-      "fecha": "9 de mayo",
-      "lugar": "Palenque de Tepatitlán",
-      "imagen": "media/firme.png",
-      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
-      "categoria": "conciertos",
-      "alt": "Imagen de Grupo Firme"
     },
   
     {
@@ -107,6 +87,26 @@
       "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
       "categoria": "conciertos",
       "alt": "Imagen de Julión"
+    },
+
+    {
+      "titulo": "Grupo Firme",
+      "fecha": "9 de mayo",
+      "lugar": "Palenque de Tepatitlán",
+      "imagen": "media/firme.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Grupo Firme"
+    },
+
+    {
+      "titulo": "Oscar Maydon",
+      "fecha": "11 de junio",
+      "lugar": "Auditorio Telmex, Guadalajara",
+      "imagen": "media/maydon.png",
+      "enlaceCompra": "https://api.whatsapp.com/message/SI7ETJLI4LTSI1?autoload=1&app_absent=0",
+      "categoria": "conciertos",
+      "alt": "Imagen de Maydon"
     }
   
   ]
