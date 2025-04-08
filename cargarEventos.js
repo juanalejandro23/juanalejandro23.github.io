@@ -15,8 +15,7 @@ function cargarEventos(categoria) {
             <img src="${evento.imagen}" class="card-img-top" alt="${evento.alt}">
             <div class="card-body">
               <h5 class="card-title"><strong>${evento.titulo}</strong></h5>
-              <p class="card-text"><strong>Fecha: </strong>${evento.fecha}</p>
-              <p class="card-text"><strong>Lugar: </strong>${evento.lugar}</p>
+              <p class="card-text">${evento.lugar} <br> ${evento.fecha}</p>
               <a href="${evento.enlaceCompra}" class="btn btn-primary">Comprar</a>
             </div>
           `;

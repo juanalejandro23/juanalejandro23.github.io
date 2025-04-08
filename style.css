@@ -41,6 +41,13 @@ body {
     height: 50px;
     width: 100%;
     background-color: #0A1F44;
+    display: flex;
+    justify-content: center;
+}
+
+.eslogan {
+    color: white;
+    font-style: italic;
 }
 
 .container-img {
@@ -100,21 +107,24 @@ body {
 }
 
 .container-cards {
-    padding: 2em;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
     gap: 30px;
+    justify-items: center;
     max-width: 100%;
 }
 
 .card {
-    width: 250px;
+    width: 100%;
+    max-width: 200px;
     background-color: #133776;
     border: none;
     border-radius: 10px;
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    text-align: start;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -124,12 +134,13 @@ body {
 }
 
 .card-title {
-    margin: 15px 0 10px;
+    margin: 0px 0 0px;
     color: white;
+    font-size: 12px;
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff;
 }
 
@@ -137,6 +148,8 @@ body {
     background-color: green;
     border: none;
     font-weight: bold;
+    padding: 6px;
+    font-size: 12px;
 }
 
 .oculto {
